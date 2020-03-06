@@ -35,6 +35,18 @@ div#cabecalho h1 seleciona tags h1 que estejam dentro da div com a id "cabecalho
 .mensagem.destaque seleciona apenas elementos que tenham a classe "mensagem" e a classe "destaque".
 Separando itens por vírgulas, como p.destaque, h1, a.saiba-mais seleciona todos os respectivos elementos para as regras. Muito útil para diminuir a repetição de regras no arquivo CSS.
 
+### referêmcia css local 
+Essa função serve para inserir informações na página. para isso, você pode usar alguns métodos.
+
+ARQUIVO EXTERNO CSS
+Este é o método que apresenta maior versatilidade. Um arquivo externo CSS pode ser ligado a quantas páginas desejarmos, desta forma deixando a manutenção de um site muito mais fácil (um arquivo CSS controla o visual do site inteiro).
+
+TAG STYLE
+Com este método, aplicamos estilos apenas na página onde as regras CSS estão inseridas. Para isso, utiliza-se a tag style dentro da tag head. 
+
+ATRIBUTO STYLE
+Esse é o método que deve ser menos utilizado, por ir contra a divisão de um página em 3 camadas, como vimos anteriormente. Utilizando o atributo style, podemos aplicar estilos a um elemento específico.
+
 ### Diferença entre estilos CSS, Internos, Externos e Inline
 Existem 3 maneiras para adicionar estilos CSS ao seu site: você pode usar CSS interno e incluir regras CSS na seção <head> do documento HTML, link para um arquivo .css externo que contém todas as regras CSS ou usar CSS em linha para aplicar regras para Elementos específicos.
   
