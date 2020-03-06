@@ -58,8 +58,7 @@ Provavelmente a maneira mais conveniente de adicionar CSS ao seu site, é vincul
 
 CSS Inline
 O CSS inline é usado para uma tag HTML específica. O atributo <style> é usado para formatar uma tag HTML específica. Usar CSS desta forma não é recomendado, pois cada tag HTML precisa ser denominada individualmente. Gerenciando seu site pode tornar-se muito difícil se você usar apenas CSS inline. No entanto, pode ser útil em algumas situações. Por exemplo, nos casos em que você não tem acesso a arquivos CSS ou precisa aplicar estilo para um único elemento. 
-  
-<!DOCTYPE html>
+ 
 <html>
 <body style="background-color:black;">
 
