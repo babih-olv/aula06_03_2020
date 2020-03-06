@@ -40,21 +40,9 @@ Existem 3 maneiras para adicionar estilos CSS ao seu site: você pode usar CSS i
   
 CSS Interno
 Código CSS interno é colocado na seção <head> de uma determinada página. As classes e IDs podem ser usados para se referir ao código CSS, mas eles só estão ativos nessa página específica. CSS estilos incorporados desta forma são baixados cada vez que a página carrega para que ele possa aumentar a velocidade de carregamento. No entanto, existem alguns casos quando a pagina de estilos interna é útil. Um exemplo seria enviar alguém um modelo de página – como tudo está em uma página, é muito mais fácil ver uma pré-visualização. O CSS interno é colocado entre tags <style></style>. 
- 
-<head>
-<style type="text/css">
-p {color:white; font-size: 10px;}
-.center {display: block; margin: 0 auto;}
-#button-go, #button-back {border: solid 1px black;}
-</style>
-</head>
 
 CSS externo
 Provavelmente a maneira mais conveniente de adicionar CSS ao seu site, é vinculá-lo a um arquivo .css externo. Dessa forma, quaisquer alterações feitas em um arquivo CSS externo serão refletidas em seu site globalmente. Uma referência a um arquivo CSS externo é colocada na seção <head> da página:
-  
-<head>
-<link rel="stylesheet" type="text/css" href="style.css" />
-</head>
 
 CSS Inline
 O CSS inline é usado para uma tag HTML específica. O atributo <style> é usado para formatar uma tag HTML específica. Usar CSS desta forma não é recomendado, pois cada tag HTML precisa ser denominada individualmente. Gerenciando seu site pode tornar-se muito difícil se você usar apenas CSS inline. No entanto, pode ser útil em algumas situações. Por exemplo, nos casos em que você não tem acesso a arquivos CSS ou precisa aplicar estilo para um único elemento. 
